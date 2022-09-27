@@ -1,0 +1,32 @@
+.cabecalho{
+    background-color: #7950f2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.conteudo {
+    background-color: #fff;
+    width: 80%;
+	float: right;
+	text-align: center;
+    justify-content: center;
+}
+.sidebar {
+    background-color: #ced4da;
+    text-align: center;
+    width: 20%;
+	margin: 0; padding: 0;
+	float: left;
+}
+
+a{
+	text-decoration: none;
+    font-size: 1.5rem;
+}
+
+li{
+    list-style-type: none;
+}
+

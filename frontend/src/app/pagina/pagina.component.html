@@ -1,0 +1,31 @@
+<!--
+  // TODO: criar o layout como no diagrama
+  // TODO: adicionar o link de navegação à sidebar
+  // TODO: exibir a resposta da data-hora consultada na api
+  // TODO: adicionar um input e um botão à página
+  // TODO: criar um método POST no api.service que envie o texto do input e exiba a resposta na página
+-->
+<div class="cabecalho">
+  <h1>Teste Prático FullStack Angular/Laravel</h1>
+</div>
+<div class="content">
+  <div class="conteudo">
+    {{ apiGreeting }}
+    <div>{{ dataHora }}</div>
+    <div>
+      <input  placeholder="Digite qualquer texto" #texto/>
+      <br/>
+      <button (click)="enviarTexto(texto.value)">Enviar</button>
+    </div>
+    
+    <div><p>{{textoSetado}}</p></div>    
+  </div>
+  <div class="sidebar">
+    <nav>
+      <h2>SIDEBAR</h2>
+      <a href="/start">Star</a>
+    </nav>
+  </div>
+</div>  
+
+
