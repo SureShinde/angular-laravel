@@ -10,15 +10,13 @@
 </div>
 <div class="content">
   <div class="conteudo">
-    {{ apiGreeting }}
-    <div>{{ dataHora }}</div>
-    <div>
+    <h3>{{ apiGreeting }}</h3>
+    <div class="api">{{ dataHora }}</div>
+    <div class="form">
       <input  placeholder="Digite qualquer texto" #texto/>
-      <br/>
       <button (click)="enviarTexto(texto.value)">Enviar</button>
     </div>
-    
-    <div><p>{{textoSetado}}</p></div>    
+    <div class="api"><p>{{textoSetado}}</p></div>    
   </div>
   <div class="sidebar">
     <nav>
